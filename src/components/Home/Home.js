@@ -93,30 +93,31 @@ const Home = () => {
             </div>
             <div class="row">
               <div class="col-md-6 mt_20">
-                <div class="protection--card cards">
-                  <img
-                    src="https://mysignal.netlify.app/assets/images/pc1.png"
-                    alt=""
-                  />
-                  <div class="text">
-                    <h3>INSURANCE PLANS + TELCO SERVICES</h3>
-                    <p>
-                      Discover the reliability of our Conventional Plans
-                      tailored to meet diverse insurance needs. Our Insurance
-                      Plans are crafted based on time-tested principles,
-                      offering a wide array of benefits designed to secure your
-                      lifestyle, health and valuable assets.
-                    </p>
-                  </div>
-                </div>
+              <div class="protection--card cards">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <img src="https://mysignal.netlify.app/assets/images/pc1.png" alt="" class="img-fluid"/>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <div class="text">
+                <h3>INSURANCE PLANS + TELCO SERVICES</h3>
+                <p>
+                    Discover the reliability of our Conventional Plans tailored to meet diverse insurance needs. Our Insurance Plans are crafted based on time-tested principles, offering a wide array of benefits designed to secure your lifestyle, health and valuable assets.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
               </div>
               <div class="col-md-6 mt_20">
-                <div class="protection--card cards">
-                  <img
-                    src="https://mysignal.netlify.app/assets/images/pc2.png"
-                    alt=""
-                  />
-                  <div class="text">
+              <div class="protection--card cards">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <img src="https://mysignal.netlify.app/assets/images/pc2.png" alt="" class="img-fluid"/>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="text">
                     <h3>TAKAFUL PLANS + TELCO SERVICES</h3>
                     <p>
                       Embrace the strength of our Takaful Plans, rooted in
@@ -125,7 +126,9 @@ const Home = () => {
                       inclusive coverage aligned with Sharia guidelines.
                     </p>
                   </div>
-                </div>
+        </div>
+    </div>
+</div>
               </div>
             </div>
           </div>

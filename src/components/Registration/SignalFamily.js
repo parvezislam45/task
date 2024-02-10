@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Accordion from "react-bootstrap/Accordion";
+
 const SignalFamily = () => {
   const backgroundImageUrl =
     "url(https://i.postimg.cc/wjY7r7PX/background-hero.png)";
@@ -676,6 +677,7 @@ const SignalFamily = () => {
                                   type="radio"
                                   id="single-life"
                                   name="plan--group"
+                                  class='w-25'
                                   checked
                                 />
                                 <label for="single-life">
