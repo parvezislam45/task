@@ -48,7 +48,7 @@ const Dashboard = () => {
                           onSelect={(k) => setKey(k)}
                           className="nav nav-pills mb-3"
                         >
-                            <Tab eventKey="personal" title="PERSONAL">
+                            <Tab eventKey="personal" title="Personal Details">
                             <div class="dashboard--info--box personal--details card--default">
                         <div class="title">
                           <h3>Personal Details</h3>
@@ -159,7 +159,7 @@ const Dashboard = () => {
                         </form>
                       </div>
                             </Tab>
-                            <Tab eventKey="single" title="SINGLE">
+                            <Tab eventKey="single" title="Single Plane Details">
                             <div class="dashboard--info--box singal--plan--details card--default">
                         <div class="title">
                           <h3>Signal Plans Details</h3>
@@ -220,7 +220,7 @@ const Dashboard = () => {
                         </div>
                       </div>
                             </Tab>
-                            <Tab eventKey="payment" title="PAYMENT">
+                            <Tab eventKey="payment" title="Billing & Payment">
                             <div class="dashboard--info--box billing--details card--default">
                         <div class="title">
                           <h3>Billing & Payment Details</h3>
@@ -289,7 +289,7 @@ const Dashboard = () => {
                         </div>
                       </div>
                             </Tab>
-                            <Tab eventKey="contract" title="CONTRACT">
+                            <Tab eventKey="contract" title="Contract Details">
                             <div class="dashboard--info--box contact--details card--default">
                         <div class="title">
                           <h3>Contact Details</h3>
