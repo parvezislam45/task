@@ -11,6 +11,7 @@ import SingleIFamily from "./components/Registration/SingleIFamily";
 import SingleILife from "./components/Registration/SingleILife";
 import Login from "./components/Authentication/Login";
 import Footer from "./components/Home/Footer/Footer";
+import Dashboard from "./components/Dashboard/Dashboard";
 function App() {
   return (
     <div className="App mx-auto">
@@ -25,6 +26,7 @@ function App() {
           <Route path='/ifamily' element={<SingleIFamily/>}></Route>
           <Route path='/ilife' element={<SingleILife/>}></Route>
           <Route path='/login' element={<Login/>}></Route>
+          <Route path='/dashboard' element={<Dashboard/>}></Route>
         </Routes>
         <Footer/>
     </div>

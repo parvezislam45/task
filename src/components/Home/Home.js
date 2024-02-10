@@ -15,6 +15,7 @@ const Home = () => {
   return (
     <div>
       <main>
+        
         <section
           class="hero--area d-flex align-items-center"
           style={{
@@ -25,7 +26,9 @@ const Home = () => {
             height: "100%",
           }}
         >
+          
           <div class="container">
+         
             <div class="row align-items-center">
               <div class="col-md-6">
                 <div class="hero--content">
@@ -807,100 +810,67 @@ const Home = () => {
             </div>
           </div>
         </section>
-
-        <section class="contact--area" id="contact">
+        <section
+          class="connect--area"
+          style={{
+            backgroundImage: backgroundImageUrl3,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            width: "100%",
+            height: "100%",
+          }}
+        >
           <div class="container">
-            <div class="row">
-              <div class="col-lg-6 mt_30">
-                <div class="contact--text">
+            <div class="row justify-content-center">
+              <div class="col-xl-9 col-md-11">
+                <div class="row justify-content-center">
+                <div class="col-lg-5 mt_30">
                   <h4 class="tag-box">Your Queries Addressed</h4>
-                  <h3 class="sub--heading">Have a Question?</h3>
-                  <p>
-                    Learn More About MYSIGNAL Insurance and Takaful Solutions"
-                  </p>
-                  <div class="img--area">
-                    <img
-                      class="w-100"
-                      src="https://mysignal.netlify.app/assets/images/contact.png"
-                      alt=""
-                    />
+                    <h3 class="sub--heading">Have a Question?</h3>
+                    <p>Learn More About MYSIGNAL Insurance and Takaful Solutions"</p>
+                    <div class="">
+                        <img class="w-100" src="https://mysignal.netlify.app/assets/images/contact.png" alt="" />
+                    </div>
                   </div>
+                  <div class="col-lg-7 mt_30">
+                  <div class="contact--form--box card--default text-center">
+                    <h3>Have a Question?</h3>
+                    <form action="#" class="needs-validation mt-5" novalidate>
+                        <div class="input--group mt-4">
+                            <input class="form-control" type="text" name="fname" id="fname" placeholder="Full Name" required />
+                            <div class="invalid-feedback">Full name is required</div>
+                        </div>
+                        <div class="input--group mt-4">
+                            <input class="form-control" type="email" name="email" id="email" placeholder="Email Address" required />
+                            <div class="invalid-feedback">Email is required</div>
+                        </div>
+                        <div class="input--group mt-4">
+                            <input class="form-control" type="text" name="number" id="number" placeholder="Mobile Number" required />
+                            <div class="invalid-feedback">Email is required</div>
+                        </div>
+                        <div class="input--group mt-3">
+                            <label for="plan">Please select your preferred SIGNAL Plans</label>
+                            <select class="form-select mt-3" name="plan" id="plan" required>
+                                <option value="" selected>SIGNAL Gold</option>
+                                <option value="2">SIGNAL Life</option>
+                                <option value="3">SIGNAL Premier</option>
+                                <option value="4">SIGNAL Family</option>
+                                <option value="5">SIGNAL i-Family</option>
+                                <option value="6">SIGNAL i-Life</option>
+                            </select>
+                            <div class="invalid-feedback">Please Choose a plan</div>
+                        </div>
+                        <div class="input--group mt-3">
+                            <textarea class="form-control" name="message" id="message" placeholder="Your Message" required></textarea>
+                            <div class="invalid-feedback">Message is required</div>
+                        </div>
+                        <div class="input--group btn--wrapper mt-5">
+                            <button type="submit" class="button btn-contact">Send Message</button>
+                        </div>
+                    </form>
                 </div>
-              </div>
-              <div class="col-lg-6 mt_30">
-                <div class="contact--form--box card--default text-center">
-                  <h3>Have a Question?</h3>
-                  <form action="#" class="needs-validation" novalidate>
-                    <div class="input--group">
-                      <input
-                        class="form-control"
-                        type="text"
-                        name="fname"
-                        id="fname"
-                        placeholder="Full Name"
-                        required
-                      />
-                      <div class="invalid-feedback">Full name is required</div>
-                    </div>
-                    <div class="input--group">
-                      <input
-                        class="form-control"
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email Address"
-                        required
-                      />
-                      <div class="invalid-feedback">Email is required</div>
-                    </div>
-                    <div class="input--group">
-                      <input
-                        class="form-control"
-                        type="text"
-                        name="number"
-                        id="number"
-                        placeholder="Mobile Number"
-                        required
-                      />
-                      <div class="invalid-feedback">Email is required</div>
-                    </div>
-                    <div class="input--group mt_35">
-                      <label for="plan">
-                        Please select your preferred SIGNAL Plans
-                      </label>
-                      <select
-                        class="form-select"
-                        name="plan"
-                        id="plan"
-                        required
-                      >
-                        <option value="" selected>
-                          SIGNAL Gold
-                        </option>
-                        <option value="2">SIGNAL Life</option>
-                        <option value="3">SIGNAL Premier</option>
-                        <option value="4">SIGNAL Family</option>
-                        <option value="5">SIGNAL i-Family</option>
-                        <option value="6">SIGNAL i-Life</option>
-                      </select>
-                      <div class="invalid-feedback">Please Choose a plan</div>
-                    </div>
-                    <div class="input--group">
-                      <textarea
-                        class="form-control"
-                        name="message"
-                        id="message"
-                        placeholder="Your Message"
-                        required
-                      ></textarea>
-                      <div class="invalid-feedback">Message is required</div>
-                    </div>
-                    <div class="input--group btn--wrapper">
-                      <button type="submit" class="button btn-contact">
-                        Send Message
-                      </button>
-                    </div>
-                  </form>
+                  </div>
+                  
                 </div>
               </div>
             </div>

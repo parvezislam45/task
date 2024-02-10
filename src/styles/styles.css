@@ -541,7 +541,7 @@ select:focus {
 .contact--area .contact--form--box h3{
 	font-family: var(--font_avenir);
 	font-weight: 800;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .contact--area .contact--form--box .input--group{
 	text-align: left;
