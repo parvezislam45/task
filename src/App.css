@@ -1556,7 +1556,7 @@ footer .footer--links .social--icon a:last-child{
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	margin-left: 25px;
-	width: 450px;
+	width: 300px;
 }
 .plan--box--wrapper .plan--option label p{
 	color: var(--text-black);

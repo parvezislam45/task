@@ -11,10 +11,6 @@ const SingleIFamily = () => {
           class="inner--hero registration-hero single--life--registration"
           style={{
             backgroundImage: backgroundImageUrl,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            width: "100%",
-            height: "100%",
           }}
         >
           <div class="container">
@@ -629,8 +625,8 @@ const SingleIFamily = () => {
 
                     <div class="eligibility--box--wrapper mt-5">
                       <h3>Eligibility</h3>
-                      <div class="eligibility--box radio--box--default card--default">
-                        <div class="adult--select--box">
+                      <div class="eligibility--box radio--box--default card--default row">
+                        <div class="adult--select--box col-12 col-sm-12 col-md-12 col-lg-6 mx-auto">
                           <h4>Are you 70 years old and below currently?</h4>
                           <div class="input--group">
                             <input
@@ -656,7 +652,7 @@ const SingleIFamily = () => {
                             to register for this plan).
                           </p>
                         </div>
-                        <div class="nationality--select--box">
+                        <div class="nationality--select--box col-12 col-sm-12 col-md-12 col-lg-6 mx-auto">
                           <h4>Select your nationality status</h4>
                           <div class="input--group">
                             <input
@@ -713,8 +709,8 @@ const SingleIFamily = () => {
                           <div class="plan--box telco--service mt-5">
                             <div class="select--plan">
                               <h4>Select Telco Service Provider</h4>
-                              <div class="plan--option">
-                                <div class="input--group">
+                              <div class="plan--option row">
+                                <div class="input--group col-12 col-sm-12 col-md-12 col-lg-6 mx-auto">
                                   <input
                                     type="radio"
                                     id="digi"
@@ -726,7 +722,7 @@ const SingleIFamily = () => {
                                     <p>DIGI</p>
                                   </label>
                                 </div>
-                                <div class="input--group ml_60">
+                                <div class="input--group col-12 col-sm-12 col-md-12 col-lg-6 mx-auto">
                                   <input
                                     type="radio"
                                     id="u-mobile"
@@ -744,8 +740,8 @@ const SingleIFamily = () => {
                           <div class="select--purchase plan--box mt-5">
                             <div class="select--plan">
                               <h4>Select Purchase</h4>
-                              <div class="plan--option">
-                                <div class="input--group">
+                              <div class="plan--option row">
+                                <div class="input--group col-12 col-sm-12 col-md-12 col-lg-6 mx-auto">
                                   <input
                                     type="radio"
                                     id="purchase1"
@@ -759,7 +755,7 @@ const SingleIFamily = () => {
                                     </p>
                                   </label>
                                 </div>
-                                <div class="input--group">
+                                <div class="input--group col-12 col-sm-12 col-md-12 col-lg-6 mx-auto">
                                   <input
                                     type="radio"
                                     id="purchase2"
